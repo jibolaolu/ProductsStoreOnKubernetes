@@ -15,7 +15,7 @@ spec:
       containers:
       - name: mvc
         # image: demoaks0acr.azurecr.io/web-app:1.3
-        image: jibolaolu/eagles-product-mvc:v2.#$(Build.BuildId)#:111
+        image: jibolaolu/eagles-product-mvc:v2.#$(Build.BuildId)
         # image: ACR_NAME/DOCKER_IMAGE:TAG
         # image: __ACR_NAME__.azurecr.io/__DOCKER_IMAGE__:__TAG__
         ports:
